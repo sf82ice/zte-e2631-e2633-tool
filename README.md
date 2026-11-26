@@ -10,8 +10,13 @@
 
 需要：node环境，（我个人使用的是Node.js v24.22.3）
 
-教程：中兴路由-系统-备份配置-备份用户配置-备份配置，下载的文件保存为config.bin，放到telnet_enable.js同目录，
+教程：
+     
+     中兴路由-系统-备份配置-备份用户配置-备份配置，下载的文件保存为config.bin，放到telnet_enable.js同目录，
+
      然后运行`点击开启telnet.bat`（非windows用户尝试通过agent使用，有能力的自行运行），运行完成后会生成`config-telnet-enable.bin`，
+     
      然后回到  中兴路由-系统-备份配置-恢复用户配置-点击输入框-选择生成的`config-telnet-enable.bin`-恢复配置， 
+     
      设备重启后，除了telnet配置发生变化，其余不变，`telnet <中兴路由ip>`，用户名密码都是admin
 
